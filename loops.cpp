@@ -4,15 +4,14 @@ using namespace std;
 
 int main ()
 {
-   while (true) {
-    int number;
-    cin >> number;
-    if ( number > 1  &&  number < 5)
-    break;
-    else
-    cout << "error your nmber"<< endl;
-      break;
-   }
+   cout <<  " Rous :" ;
+   int rous;
+   cin >> rous;
+   for (int i = 1 ; i <=rous; i++){
+      for ( int j = 0; j < i; j++)
+      cout << "*";
+      cout << endl;
+   } 
     int pause;
     cin >> pause;
     return 0;
