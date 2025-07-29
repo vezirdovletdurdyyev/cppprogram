@@ -1,19 +1,18 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main ()
 {
-   cout <<  " Rous :" ;
-   int rous;
-   cin >> rous;
-   for (int i = 1 ; i <=rous; i++){
-      for ( int j = 0; j < i; j++)
-      cout << "*";
-      cout << endl;
-   } 
+   const double pi = 3.14;
+   double radius;
+   cout << "radius: ";
+   cin >> radius; 
+   double result = pi*pow(radius , 2);
+   cout << result;
+   
     int pause;
     cin >> pause;
     return 0;
-
 }
