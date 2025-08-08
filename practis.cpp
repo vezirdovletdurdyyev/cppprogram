@@ -1,13 +1,18 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
 int main ()
 {
-  double cradus;
-  cin >> cradus;
-  double fahrenheit = ((cradus*9)/5)+32;
-  cout << fahrenheit;
+    
+    const double pi = 3.14;
+    double radius;
+    cout << "Radius:";
+    cin >> radius;
+  
+    double S = pi * pow(radius ,2);
+    cout << S;
 
     int pause;
     cin >> pause;
