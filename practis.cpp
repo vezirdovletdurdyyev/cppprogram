@@ -4,10 +4,13 @@ using namespace std;
 
 int main ()
 {
-  const double x = 10;
-  const double y = 5;
-  double z = (x + 10)/(3*y);
-   cout << z ;
+  const double sales = 95000;
+  cout << "Sales = $" << sales << endl; 
+  double statetax = sales *0.04;
+  cout << "State Tax = " << statetax << endl;
+  double countrytax = sales*0.02;
+  cout << "Country Tax = " << countrytax;
+
     int pause;
     cin >> pause;
     return 0;
