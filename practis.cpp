@@ -1,18 +1,13 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+#include <iomanip>
+
 using namespace std;
 
 int main ()
 {
-    
-    const short maxValue = 6;
-    const short minValue = 1;
-    srand (time (0));
-    short number1 = ((rand()% (maxValue - minValue +1 ))+minValue);
-    short number2 = ((rand()% (maxValue - minValue +1 ))+minValue);
-    cout << number1 << endl;
-    cout << number2;
+    cout << left << setw (15) << "Course" << setw(15) << "students" << endl;
+    cout << left << setw (15) << "C++" << right << setw(10) << "100" << endl;
+    cout << left << setw (15) << "JavaScript" << right << setw(10) << "50" ;
     int pause;
     cin >> pause;
     return 0;
