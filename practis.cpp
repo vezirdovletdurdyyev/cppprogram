@@ -4,12 +4,10 @@ using namespace std;
 
 int main ()
 {
-  const double sales = 95000;
-  cout << "Sales = $" << sales << endl; 
-  double statetax = sales *0.04;
-  cout << "State Tax = " << statetax << endl;
-  double countrytax = sales*0.02;
-  cout << "Country Tax = " << countrytax;
+  double cradus;
+  cin >> cradus;
+  double fahrenheit = ((cradus*9)/5)+32;
+  cout << fahrenheit;
 
     int pause;
     cin >> pause;
