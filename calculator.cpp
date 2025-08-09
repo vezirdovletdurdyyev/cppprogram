@@ -1,33 +1,24 @@
-#include <iostream>
-
+#include<iostream>
+#include<cmath>
 
 using namespace std;
 
-int main ()
-{double number1;
-    char result;
-    double number2;
-
-    cin >> number1 >> result >>number2;
+int main()
+{
     
-   switch (result)
-   {
-      case '+':
-      cout << number1 + number2 << endl; 
-    break;
-     case '-':
-      cout << number1 - number2 << endl; 
-    break;
-      case '*':
-      cout << number1 * number2 << endl; 
-    break;
+    int number;
+    cout << "write number : ";
+    cin >> number;
+    if (number < 0)
+    cout << "error";
+    else {
    
-   default:
-    case '/':
-      cout << number1 / number2 << endl; 
-   }
-
+        int number1 = 0;
+          for (int  i = 1; i <= number; i++)
+             number1 += i;
+          cout << "progression " << number << " : " << number1;
+    }
     int pause;
     cin >> pause;
     return 0;
-} 
+}
