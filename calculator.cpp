@@ -13,9 +13,9 @@ int main()
     cout << "error";
     else {
    
-        int number1 = 0;
+        int number1 = 1;
           for (int  i = 1; i <= number; i++)
-             number1 += i;
+             number1 *= i;
           cout << "progression " << number << " : " << number1;
     }
     int pause;
