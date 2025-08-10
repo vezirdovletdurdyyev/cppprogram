@@ -5,14 +5,19 @@ using namespace std;
 
 int main()
 {
-    double resalt;
+    int number ;
+    int number1;
 
-    double temperature[] = {60, 80, 90};
-    for ( int i = 0 ; i< sizeof(temperature)/sizeof(int); i++)
-        resalt += temperature[i];
-        cout << resalt/(sizeof(temperature)/sizeof(int));
+    cout << " Enter number :";
+    cin >> number;
     
+    cout << "Enter number1 : ";
+    cin >> number1;
+
+    cout << "number + number1" << "  " << number + number1 << endl
+           <<" number/number1"<< "  " << number/number1 ;
+           
     int pause;
     cin >> pause;
     return 0;
-}
+} 
