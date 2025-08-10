@@ -1,23 +1,34 @@
 #include<iostream>
 #include<cmath>
+#include <cstdlib>
+#include<ctime>
+#include<iomanip>
 
 using namespace std;
 
 int main()
 {
-    int number = 0;
-    while ( number < 98 || number >100)
+    int password = 2308;
+    int input;
+    while ( password != input)
     {
-        cout <<" Enter number : ";
+        cout <<" Enter yur password : ";
 
-        cin >> number;
+        cin >> input;
 
-        if (number < 98 || number >100)
-
-          cout << " your sicret cod wrong"<< endl;
+       { 
+        if (password != input)
+          {
+            cout << " your sicret cod wrong"<< endl;
+          }
+          else
+          {
+             cout << "welcom";
+          }
+         
+        }
      }
-
-           
+ 
     int pause;
     cin >> pause;
     return 0;
