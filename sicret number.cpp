@@ -8,7 +8,8 @@ using namespace std;
 
 int main()
 {
-    int password = 2308;
+    int password;
+    cin >> password;
     int input;
     while ( password != input)
     {
