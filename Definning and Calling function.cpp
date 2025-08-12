@@ -5,16 +5,19 @@
 #include<iomanip>
 
 using namespace std;
-void greet () {
-    cout << "Hello world"
+
+void greet (string firstName, string lastName){
+    cout << "Hellow  "<< firstName << "  " << lastName << endl; 
 }
 
 int main()
 {
-    greet();
-    cout <<"Write number : ";
+    greet ( "Wezir", "Dowletdurdyyew");
+
+  
     
+
     int pause;
     cin >> pause;
     return 0;
-}  
+} 

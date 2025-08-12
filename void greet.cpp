@@ -5,15 +5,13 @@
 #include<iomanip>
 
 using namespace std;
-void greet () {
-    cout << "Hello world"
-}
+
 
 int main()
 {
-    greet();
-    cout <<"Write number : ";
-    
+    for (i = 0, i < factoryal, i++ )
+    factoryal = factoryal * i;
+    factoryal *= i
     int pause;
     cin >> pause;
     return 0;

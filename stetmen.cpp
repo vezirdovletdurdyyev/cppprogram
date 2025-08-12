@@ -4,7 +4,7 @@ using namespace std;
 
 int main ()
 {
-    int selese;
+   int selese;
    cin >> selese;
    double commision = (selese > 1000)  ? .1 : .05;
    cout << commision;
